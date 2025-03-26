@@ -13,5 +13,14 @@ public class Main {
         System.out.println("C3: ");
         c3.showNumber();
 
+        ///////////
+        ChocolateBox chocolateBox = new ChocolateBox("Cherry", "Romania");
+
+        System.out.println(chocolateBox.getVolume());
+        chocolateBox.toString();
+
+        Milka milka = new Milka("Vanilla", "Germany", 3.4f, 10f, 1.4f);
+        System.out.println("Milka volume: " + milka.getVolume());
+        System.out.println(milka);
     }
 }

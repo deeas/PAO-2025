@@ -1,3 +1,5 @@
+package entities;
+
 public class Car {
     private String brand;
     private String model;
@@ -6,10 +8,11 @@ public class Car {
     private FuelType fuel;
     private static int carCount = 0;
 
-    // Enum for fuel types
-    public enum FuelType {
-        PETROL, DIESEL, ELECTRIC, HYBRID;
+    // Enum for colour types
+    public enum Colours {
+        RED, GREEN, BLUE, GREJ;
     }
+
     // Constructor
     public Car(String brand, String model, int year, double price, FuelType fuel) {
         this.brand = brand;
@@ -74,7 +77,7 @@ public class Car {
     // Override toString method
     @Override
     public String toString() {
-        return "Car{" + "brand='" + brand + "', model='" + model + "', year=" + year + ", price=$" + price +
+        return "entities.Car{" + "brand='" + brand + "', model='" + model + "', year=" + year + ", price=$" + price +
                 ", fuel=" + fuel + '}';
     }
 }
