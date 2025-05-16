@@ -1,4 +1,4 @@
-package exercises;
+package exercises.exercise1;
 
 /*
 Exercise 1: Define and Use a Sealed Class Hierarchy

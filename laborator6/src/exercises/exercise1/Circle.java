@@ -1,4 +1,4 @@
-package exercises;
+package exercises.exercise1;
 
 final class Circle extends Shape {
     double radius;

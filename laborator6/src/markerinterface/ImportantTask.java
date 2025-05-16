@@ -1,2 +1,4 @@
-package markerinterface;public interface ImportantTask {
+package markerinterface;
+
+public interface ImportantTask { //marker interface
 }

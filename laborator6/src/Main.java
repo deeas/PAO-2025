@@ -1,15 +1,22 @@
+import record.Person;
+
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
+        Person person1 = new Person("Adrian", 10);
+        System.out.println(person1);
 
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("i = " + i);
-        }
+        Person person2 = new Person("Marius", 16);
+        System.out.println(person2);
+
+        Person person3 = person1;
+
+        System.out.println("person1 equals person3" + person1.equals(person3));
+
+        Person person4 = new Person(67);
+        System.out.println(person4);
+
+        System.out.println(person4.age());
     }
 }

@@ -1,4 +1,4 @@
-package exercises;
+package exercises.exercise1;
 
 public class TestSealedClass {
     public static void main(String[] args) {

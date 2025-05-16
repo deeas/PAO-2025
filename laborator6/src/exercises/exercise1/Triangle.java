@@ -1,4 +1,4 @@
-package exercises;
+package exercises.exercise1;
 
 non-sealed class Triangle  extends Shape {
     @Override

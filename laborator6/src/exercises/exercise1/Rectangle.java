@@ -1,4 +1,4 @@
-package exercises;
+package exercises.exercise1;
 
 final public class Rectangle extends Shape {
     double width, height;
