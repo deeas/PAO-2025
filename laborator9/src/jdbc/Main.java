@@ -12,7 +12,7 @@ public class Main {
     public static void main(String[] args) {
         PersonRepositoryUsingStatements personRepositoryUsingStmt = new PersonRepositoryUsingStatements();
         personRepositoryUsingStmt.createTable();
-        /*personRepositoryUsingStmt.addPerson();
+        personRepositoryUsingStmt.addPerson();
         personRepositoryUsingStmt.displayPerson();
 
         PersonRepositoryUsingPreparedStatement personRepositoryUsingPreparedStmt = new PersonRepositoryUsingPreparedStatement();
@@ -29,7 +29,7 @@ public class Main {
 
         PersonRepositoryUsingCallableStatement personRepositoryUsingCallableStmt = new PersonRepositoryUsingCallableStatement();
         personRepositoryUsingCallableStmt.insertPerson(new Person("Andreea", 30.0));
-*/
+
         DatabaseConfiguration.closeDatabaseConnection();
     }
 }

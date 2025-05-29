@@ -11,7 +11,7 @@ import java.sql.Statement;
 
 public class PersonRepositoryUsingStatements {
     public void createTable() {
-        String createTableSql = "CREATE TABLE IF NOT EXISTS persons" +
+        String createTableSql = "CREATE TABLE IF NOT EXISTS person" +
                 "(id int PRIMARY KEY AUTO_INCREMENT, name varchar(30)," +
                 "age double)";
 
